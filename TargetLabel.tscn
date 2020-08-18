@@ -1,0 +1,20 @@
+[gd_scene format=2]
+
+[node name="Polygon2D" type="Polygon2D"]
+self_modulate = Color( 0.0666667, 0.113725, 0.368627, 1 )
+scale = Vector2( 0.3, 0.3 )
+offset = Vector2( -40, -20 )
+polygon = PoolVector2Array( 0, 0, 80, 0, 80, 40, 0, 40 )
+
+[node name="Label" type="Label" parent="."]
+self_modulate = Color( 1, 0.741176, 0.411765, 1 )
+margin_left = -40.0
+margin_top = -16.0
+margin_right = 40.0
+margin_bottom = 24.0
+text = "Target
+FIRST"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

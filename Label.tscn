@@ -1,0 +1,21 @@
+[gd_scene format=2]
+
+[node name="Polygon2D" type="Polygon2D"]
+self_modulate = Color( 0.0666667, 0.113725, 0.368627, 1 )
+position = Vector2( -48, 0 )
+scale = Vector2( 0.3, 0.3 )
+polygon = PoolVector2Array( 0, 0, 120, 0, 120, 80, 0, 80 )
+
+[node name="Label" type="Label" parent="."]
+self_modulate = Color( 1, 0.741176, 0.411765, 1 )
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 86.0
+margin_bottom = 89.0
+text = "Cost x
+Damage
+Reload Time
+Range"
+__meta__ = {
+"_edit_use_anchors_": false
+}

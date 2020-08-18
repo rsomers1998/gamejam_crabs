@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://resources/Win.png" type="Texture" id=1]
+[ext_resource path="res://WinLose.gd" type="Script" id=2]
+
+[node name="Node2D" type="Sprite"]
+texture = ExtResource( 1 )
+vframes = 2
+script = ExtResource( 2 )

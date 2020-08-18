@@ -1,0 +1,13 @@
+[remap]
+
+importer="image"
+type="Image"
+path="res://.import/Crab.png-c8dca422d9a405d01bbc6ead48aa82b6.image"
+
+[deps]
+
+source_file="res://resources/Crab.png"
+dest_files=[ "res://.import/Crab.png-c8dca422d9a405d01bbc6ead48aa82b6.image" ]
+
+[params]
+

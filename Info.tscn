@@ -1,0 +1,31 @@
+[gd_scene format=2]
+
+[node name="Polygon2D" type="Polygon2D"]
+self_modulate = Color( 0.0666667, 0.113725, 0.368627, 1 )
+position = Vector2( 205, 120 )
+offset = Vector2( -200, -115 )
+polygon = PoolVector2Array( 0, 0, 400, 0, 400, 230, 0, 230 )
+
+[node name="Label" type="Label" parent="."]
+self_modulate = Color( 1, 0.741176, 0.411765, 1 )
+margin_left = -185.0
+margin_top = -110.0
+margin_right = 189.0
+margin_bottom = 108.0
+text = "Crabs are storming the beaches! Its your job to stop them!
+
+Build Towers to kill them!
+
+Left click to select a tower, left click to place it
+Hover over a tower icon to see its stats
+Hover over a placed tower to see its targeting style
+Right click on a tower to change targeting style
+
+Towers can be placed to override old towers
+
+Good Luck
+Have Fun"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

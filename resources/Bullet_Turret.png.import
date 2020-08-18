@@ -1,0 +1,13 @@
+[remap]
+
+importer="image"
+type="Image"
+path="res://.import/Bullet_Turret.png-b958563f3fbc7f09ea69131b15c05ae5.image"
+
+[deps]
+
+source_file="res://resources/Bullet_Turret.png"
+dest_files=[ "res://.import/Bullet_Turret.png-b958563f3fbc7f09ea69131b15c05ae5.image" ]
+
+[params]
+
